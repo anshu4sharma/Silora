@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300&display=swap");
+
+.NFT {
+  padding-top: 40px;
+}
+
+.home h1 {
+  color: white;
+  height: 206px;
+  width: 593px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 59px;
+
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: "Iceland", cursive;
+  /* font-family: 'Poppins', sans-serif; */
+}
+h4 {
+  color: white;
+}
+
+.inslide h1 {
+  color: white;
+  text-align: center;
+}
+
+div p {
+  color: #a7a9be;
+  font-family: "Iceland", cursive;
+  font-size: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50%;
+  flex-direction: column;
+  /* align-items: center; */
+
+  position: relative;
+  /* top: 40px; */
+}
+
+.home2 {
+  display: flex;
+  /* width: 50%; */
+  /* justify-content: center; */
+  /* border: 2px solid red; */
+  /* align-items: center; */
+  position: relative;
+  /* top: 40px; */
+  flex-direction: column;
+}
+
+.home2 #bnb {
+  position: relative;
+  /* top: 40px; */
+  /* bottom: 40px; */
+  width: 500px;
+  /* height: 300px; */
+}
+
+.home2 p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.home2 span hr {
+  width: 200px;
+  color: #5ce1e6;
+  /* text-align: center; */
+}
+
+.launch_button {
+  display: flex;
+  justify-content: center;
+  background-color: #21585a;
+  height: 42px;
+  width: 145px;
+  border-radius: 20px;
+}
+
+.read_doc {
+  display: flex;
+  /* color: #3F273B; */
+  border: white 1px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 52px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.read_doc p {
+  position: relative;
+  /* top: 10px; */
+}
+
+.inslide h1 {
+  position: relative;
+  padding-top: 100px;
+}
+
+.launch_button p {
+  display: flex;
+  justify-content: center;
+  /* top: 10px; */
+  align-items: center;
+  color: white;
+}
+
+.btn_section {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#foot {
+  text-align: center;
+  /* padding-top: 1; */
+
+  position: relative;
+  top: 200px;
+}
+
+/* m-version  */
+
+@media screen and (max-width: 480px) {
+  .main {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+  }
+
+  .read_doc {
+    /* margin-left: 40px; */
+
+    position: relative;
+    left: -140px;
+    /* bottom: 80px; */
+    width: 160px;
+  }
+
+  .NFT p {
+    list-style: none;
+    position: relative;
+    /* top: -80px; */
+    width: 80%;
+    flex-wrap: wrap;
+  }
+
+  .home2 {
+    display: flex;
+    position: relative;
+  }
+
+  .home h1 {
+    color: white;
+    /* height: 206px; */
+    width: 453px;
+    /* width: 100%; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: "Iceland", cursive;
+    /* position: relative; */
+    left: 30px;
+    /* display: none; */
+  }
+
+  .home p {
+    position: relative;
+    left: 30px;
+    top: -40px;
+
+    /* height: 00px; */
+  }
+
+  .home2 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+  }
+
+  #bnb {
+    position: relative;
+    /* width: 40%; */
+    /* left: -60px; */
+    width: 100%;
+    /* top: -100px; */
+    /* right: 60p x; */
+    /* display: none; */
+  }
+
+  .home {
+    display: flex;
+    /* width: 80%; */
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    padding-bottom: 60px;
+  }
+
+  .inslide h1 {
+    position: relative;
+    padding-top: 100px;
+  }
+
+  #foot {
+    text-align: center;
+    /* padding-top: 1; */
+    /* padding-top: 120px;  */
+    position: relative;
+    top: 540px;
+    /* padding-bottom: 120px; */
+    /* padding-top: 40px; */
+  }
+}
+
+
+
+
+
+
+
+
+
+

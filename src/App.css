@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300&display=swap');
+body {
+  background: rgba(15, 14, 23, 0.01);
+  background-image: url("../public/bg.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Iceland', cursive;
+  background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: rgba(15, 14, 23, 0.01);
+    /* background-image: url("../public/bg.jpg"); */
+    
+    background-position: center;
+    /* display: none; */
+    position: absolute;
+    background-size: cover;
+    background: url("../public/bg.jpg");
+    
+    /* background-position: center; */
+
+
+      /* overflow-y: scroll */
+      /* over */
+      ;
+
+      
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+

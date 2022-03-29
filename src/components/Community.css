@@ -1,0 +1,113 @@
+.community_page{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.community_page h1{
+text-align: center;
+position: relative;
+top: 280px;
+
+color: white;
+
+
+}
+
+
+
+
+
+.social_icon{
+position: relative;
+width: 60%;
+height: 100px;
+border-radius: 20px;
+/* border:  solid white ; */
+/* background: #FFFFFF05; */
+top: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.fa-brands {
+padding: 10px;    
+    color: #0C6DB8;
+}
+
+.social_icon span{
+
+    display: flex;
+    /* flex-direction: column; */
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-2x{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.social_icon a{
+
+    text-decoration: none;
+
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+
+    .social_icon{
+        position: relative;
+        width: 80%;
+        height: 100px;
+        /* left: 30px; */
+        background: transparent;
+        
+        
+    }
+    
+    
+
+      
+    .community_page h1{
+
+        position: relative;
+        top: 280px;
+        color: white;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+.social_icon span{
+
+   
+    padding: 0;
+}
+
+
+  
+  
+  }

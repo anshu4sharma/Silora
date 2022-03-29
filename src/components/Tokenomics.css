@@ -1,0 +1,153 @@
+#foot {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+
+.tokenomics {
+  display: flex;
+  text-align: center;
+  /* flex-direction: column; */
+justify-content: center;
+  position: relative;
+  align-items: center;
+  top: 10px;
+}
+
+.tokenomics p {
+  width: 60%;
+  /* position: relative; */
+  /* top: 30px; */
+  /* line-height: 20px; */
+}
+
+.contract-details ul li span{
+
+  font: 100;
+  font-size: 1.2rem;
+}
+
+#tok  {
+  position: relative;
+  top: 30px;
+
+  font-size: 4.1rem;
+}
+
+.chart {
+  /* backdrop-filter: lense-blur; */
+  position: relative;
+  /* top: 120px; */
+  border: none;
+  outline: none;
+  flex-direction: column;
+}
+
+.chart img {
+  width: 600px;
+}
+
+.supply {
+  position: relative;
+  top: 40px;
+  display: flex;
+  border-radius: 20px;
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 500px;
+  background-color: #292c3f;
+
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px white;
+}
+
+.contract-details {
+  color: white;
+  display: flex;
+  text-align: left;
+  padding-top:140px;
+  padding-bottom: 40px;
+  display: flex;
+  line-height: 60px;
+
+  justify-content: center;
+}
+
+.contract-details ul {
+  display: flex;
+  font: 900;
+  justify-content: center;
+  flex-direction: column;
+  float: right;
+  font-size: 24px;
+
+}
+
+#summary {
+  position: relative;
+  top: 80px;
+  z-index: 1;
+}
+
+#sum {
+  position: relative;
+  top: 115px;
+  z-index: 2;
+  color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .contract-details ul li span{
+
+    font: 100;
+    font-size: 0.8rem;
+  }
+  
+  .chart img {
+    width: 500px;
+  }
+
+  .supply {
+    position: relative;
+    top: 40px;
+    display: flex;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: #292c3f;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contract-details ul {
+    display: flex;
+    font: 900;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    list-style: disc;
+    line-height: 60px;
+  }
+
+  #foot {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+
+  .tokenomics {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  
+    position: relative;
+    align-items: center;
+    top: 10px;
+  }
+  
+}
